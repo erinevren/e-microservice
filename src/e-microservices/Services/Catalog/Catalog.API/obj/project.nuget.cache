@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "D2CLIQtBQM/CoEppCKRuz+X3FYqmdelo76bKc9jROa5Eb7a6Ysu3NjhUZmzoV/OXI+IIm64/eEj0oR51ob+IRQ==",
+  "dgSpecHash": "fk8JkJguqE2TiU2JeQe32rtiW4K9Tzt+qnYGFuf74Pjx6d9m26uno7hqbxKi6/1+99ygy15FYqq0c3jmvbwfMg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Evren\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\Evren\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Evren\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Evren\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\Evren\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Evren\\.nuget\\packages\\mongodb.bson\\2.17.1\\mongodb.bson.2.17.1.nupkg.sha512",
     "C:\\Users\\Evren\\.nuget\\packages\\mongodb.driver\\2.17.1\\mongodb.driver.2.17.1.nupkg.sha512",
