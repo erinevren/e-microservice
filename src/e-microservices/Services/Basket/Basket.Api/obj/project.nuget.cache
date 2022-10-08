@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fKQQ/T2YayCiETE0TJB7mfFUtXkkU8lXPHpEvRzo/KEXXiGk2Vf+veleohfWxoD/FWiCQrWx5HDvlL7M2vDN9w==",
+  "dgSpecHash": "zDQ4s3FrLWB1l8wddV+VD0cyhcvNC9VM6ZZFFzdxsRFHCX19nzfX/g6+BEuhZcNY6yUpTGvo+vlbypKi1wZxFw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\Evren\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\Evren\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Evren\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Evren\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\Evren\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Evren\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Evren\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
