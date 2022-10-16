@@ -6,6 +6,7 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       CacheSettings:ConnectionString: basketdb:6379
+      GrpcSettings:DiscountUrl: http://discount.grpc
     image: basketapi
     ports:
     - published: 8001
@@ -41,6 +42,37 @@ services:
     restart: always
     volumes:
     - mongo_data:/data/db:rw
+  discount.api:
+    build:
+      context: C:\Users\Evren\source\repos\e-microservice\src\e-microservices
+      dockerfile: Services/Discount/Discount.API/Dockerfile
+    container_name: discount.api
+    depends_on:
+      basketdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DatabaseSettings:ConnectionString: Server=discountdb;Port=5432;Database=DiscountDb;User
+        Id=admin;Password=admin1234;
+    image: discountapi
+    ports:
+    - published: 8002
+      target: 80
+  discount.grpc:
+    build:
+      context: C:\Users\Evren\source\repos\e-microservice\src\e-microservices
+      dockerfile: Services/Discount/Discount.Grpc/Dockerfile
+    container_name: discount.grpc
+    depends_on:
+      discountdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DatabaseSettings:ConnectionString: Server=discountdb;Port=5432;Database=DiscountDb;User
+        Id=admin;Password=admin1234;
+    image: discountgrpc
+    ports:
+    - target: 80
   discountdb:
     container_name: discountdb
     environment:
@@ -54,6 +86,32 @@ services:
     restart: always
     volumes:
     - postgres_data:/var/lib/postgresql/data:rw
+  orderdb:
+    container_name: orderdb
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: SwN12345678
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    ports:
+    - published: 1433
+      target: 1433
+    restart: always
+  ordering.api:
+    build:
+      context: C:\Users\Evren\source\repos\e-microservice\src\e-microservices
+      dockerfile: Services/Ordering/Ordering.API/Dockerfile
+    container_name: ordering.api
+    depends_on:
+      orderdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:OrderingConnectionString: Server=orderdb;Database=OrderDb;User
+        Id=sa;Password=SwN12345678
+    image: orderingapi
+    ports:
+    - published: 8004
+      target: 80
   pgadmin:
     container_name: pgadmin
     environment:
