@@ -4,14 +4,14 @@
     "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\Services\\Basket\\Basket.Api\\Basket.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\Services\\Basket\\Basket.Api\\Basket.Api.csproj": {
+    "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
-        "projectName": "Basket.Api",
-        "projectPath": "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
+        "projectName": "EventBus.Messages",
+        "projectPath": "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
         "packagesPath": "C:\\Users\\Evren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\Services\\Basket\\Basket.Api\\obj\\",
+        "outputPath": "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\BuildingBlocks\\EventBus.Messages\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Evren\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,10 +39,85 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\Services\\Basket\\Basket.Api\\Basket.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
+        "projectName": "Basket.Api",
+        "projectPath": "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
+        "packagesPath": "C:\\Users\\Evren\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\Services\\Basket\\Basket.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Evren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
+                "projectPath": "C:\\Users\\Evren\\source\\repos\\e-microservice\\src\\e-microservices\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Grpc.AspNetCore": {
               "target": "Package",
               "version": "[2.40.0, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             },
             "Microsoft.Extensions.Caching.StackExchangeRedis": {
               "target": "Package",

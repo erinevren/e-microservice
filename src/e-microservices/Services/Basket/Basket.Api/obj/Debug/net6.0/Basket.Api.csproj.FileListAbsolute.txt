@@ -49,3 +49,14 @@ C:\Users\Evren\source\repos\e-microservice\src\e-microservices\Services\Basket\B
 C:\Users\Evren\source\repos\e-microservice\src\e-microservices\Services\Basket\Basket.Api\bin\Debug\net6.0\Grpc.Net.Client.dll
 C:\Users\Evren\source\repos\e-microservice\src\e-microservices\Services\Basket\Basket.Api\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
 C:\Users\Evren\source\repos\e-microservice\src\e-microservices\Services\Basket\Basket.Api\bin\Debug\net6.0\Grpc.Net.Common.dll
+C:\Users\Evren\source\repos\e-microservice\src\e-microservices\Services\Basket\Basket.Api\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Evren\source\repos\e-microservice\src\e-microservices\Services\Basket\Basket.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Evren\source\repos\e-microservice\src\e-microservices\Services\Basket\Basket.Api\bin\Debug\net6.0\MassTransit.dll
+C:\Users\Evren\source\repos\e-microservice\src\e-microservices\Services\Basket\Basket.Api\bin\Debug\net6.0\MassTransit.Abstractions.dll
+C:\Users\Evren\source\repos\e-microservice\src\e-microservices\Services\Basket\Basket.Api\bin\Debug\net6.0\MassTransit.AspNetCoreIntegration.dll
+C:\Users\Evren\source\repos\e-microservice\src\e-microservices\Services\Basket\Basket.Api\bin\Debug\net6.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\Evren\source\repos\e-microservice\src\e-microservices\Services\Basket\Basket.Api\bin\Debug\net6.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Evren\source\repos\e-microservice\src\e-microservices\Services\Basket\Basket.Api\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Evren\source\repos\e-microservice\src\e-microservices\Services\Basket\Basket.Api\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Evren\source\repos\e-microservice\src\e-microservices\Services\Basket\Basket.Api\bin\Debug\net6.0\EventBus.Messages.dll
+C:\Users\Evren\source\repos\e-microservice\src\e-microservices\Services\Basket\Basket.Api\bin\Debug\net6.0\EventBus.Messages.pdb
